@@ -11,7 +11,7 @@ class LineTooLongException : IOException("Line too long")
 
 /**
  * Reads until a \n is found or if maxLineSize is reached.
- * We only check for \n line terminators because that's what the KDE Connect protocol uses.
+ * We only check for \n line terminators because that's what the Roundlink protocol uses.
  */
 @Throws(IOException::class)
 fun readLineBounded(inputStream: InputStream, maxLineSize: Int): String {

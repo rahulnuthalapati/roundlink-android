@@ -1,6 +1,6 @@
-# KDE Connect - Android app
+# Roundlink - Android app
 
-KDE Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).
+Roundlink is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).
 
 ## (Some) Features
 - **Shared clipboard**: copy and paste between your phone and your computer (or any other device).
@@ -13,7 +13,7 @@ All this without wires, over the already existing Wi-Fi network, and using TLS e
 
 ## About this app
 
-This is a native Android port of the KDE Connect Qt app. You will find a more complete readme about KDE Connect [here](https://invent.kde.org/network/kdeconnect-kde/).
+This is a native Android port of the Roundlink Qt app. You will find a more complete readme about Roundlink [here](https://invent.kde.org/network/kdeconnect-kde/).
 
 ## How to install this app
 
@@ -21,13 +21,13 @@ You can install this app from the [Play Store](https://play.google.com/store/app
 
 ## Contributing
 
-A lot of useful information, including how to get started working on KDE Connect and how to connect with the current developers, is on our [KDE Community Wiki page](https://community.kde.org/KDEConnect)
+A lot of useful information, including how to get started working on Roundlink and how to connect with the current developers, is on our [KDE Community Wiki page](https://community.kde.org/KDEConnect)
 
 For bug reporting, please use [KDE's Bugzilla](https://bugs.kde.org). Please do not use the issue tracker in GitLab since we want to keep everything in one place.
 
-To contribute patches, use [KDE Connect's Gitlab](https://invent.kde.org/network/kdeconnect-android/).
+To contribute patches, use [Roundlink's Gitlab](https://invent.kde.org/network/kdeconnect-android/).
 On Gitlab (as well as on our [old Phabricator](https://phabricator.kde.org/tag/kde_connect/)) you can find a task list with stuff to do and links to other relevant resources.
-It is a good idea to also subscribe to the [KDE Connect mailing list](https://mail.kde.org/mailman/listinfo/kdeconnect).
+It is a good idea to also subscribe to the [Roundlink mailing list](https://mail.kde.org/mailman/listinfo/kdeconnect).
 
 Please know that all translations for all KDE apps are handled by the [localization team](https://l10n.kde.org/). If you would like to submit a translation, that should be done by working with the proper team for that language.
 

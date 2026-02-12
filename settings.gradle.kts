@@ -29,4 +29,4 @@ buildscript {
     }
 }
 
-rootProject.name = "kdeconnect-android"
+rootProject.name = "roundlink-android"
