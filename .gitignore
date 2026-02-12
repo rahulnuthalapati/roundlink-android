@@ -1,0 +1,17 @@
+.attach_pid*
+local.properties
+/.gradle/
+/.idea/
+/out/
+/gen/
+/bin/
+/build/
+/target/
+/classes/
+*.iml
+*.keystore
+!debug.keystore
+.directory
+GPUCache/
+/release/
+/.kotlin/

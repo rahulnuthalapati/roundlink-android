@@ -1,0 +1,21 @@
+KDEConnect fournit un ensemble de fonctionnalités pour intégrer votre flux de travail entre périphériques :
+
+- Transfert des fichiers entre vos périphériques.
+- Accès aux fichiers sur votre téléphone depuis votre ordinateur, sans fil.
+- Presse-papier partagé : copier et coller entre vos périphériques.
+- Apparition de notifications pour les appels et les messages entrants sur votre ordinateur.
+- Pavé tactile virtuel : utilisation de l'écran de votre téléphone comme pavé tactile pour votre ordinateur.
+- Synchronisation de vos notifications : accès à vos notifications téléphoniques depuis votre ordinateur et réponses aux messages.
+- Télé-commande multimédia : utilisation de votre téléphone comme télécommande pour les lecteurs de média sous Linux.
+- Connexion au Wifi : aucun connexion USB ou Bluetooth nécessaire.
+- Chiffrement « TLS » de bout en bout : vos informations sont en sécurité.
+
+Veuillez noter que vous devrez installer KDEConnect sur votre ordinateur pour que cette application fonctionne et maintenir la version de bureau à jour avec la version Android pour les dernières fonctionnalités.
+
+Informations sur les permissions sensibles :
+* Permission d'accessibilité : nécessaire pour recevoir les informations d'un autre périphérique pour contrôler votre téléphone Android, si vous utilisez la fonction de télécommande.
+* Permission pour emplacement en arrière-plan : nécessaire pour savoir à quel réseau Wifi auquel vous êtes connecté, si vous utilisez la fonctionnalité de réseaux de confiance.
+
+KDEConnect n'envoie jamais d'informations à KDE ni à aucun tiers. KDEConnect envoie des données d'un périphérique à un autre à l'aide du réseau local, mais jamais par Internet et en utilisant le chiffrement de bout en bout.
+
+Cette application fait partie d'un projet « Open source ». Il existe grâce à toutes les personnes qui y ont contribué. Veuillez visiter le site Internet pour accéder au code source.

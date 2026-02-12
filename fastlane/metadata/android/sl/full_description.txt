@@ -1,0 +1,19 @@
+KDE Connect ponuja niz funkcij za integracijo delovnega procesa na različnih napravah:
+
+- Prenos datotek med napravami;
+- Brezžičen dostop do datotek na vašem telefonu iz računalnika.
+- Skupno odložišče: kopiranje in lepljenje med napravami.
+- Dobivanje obvestil o dohodnih klicih na telefonu in sporočilih na računalniku.
+- Sinhronizacija obvestil: dostop do obvestil na telefonu iz vašega računalnika in odgovarjanje na sporočila.
+- Večpredstavnostni daljinski upravljalnik: uporabite telefon kot daljinski upravljalnik za večpredstavnostne predvajalnike na Linuxu;
+- Povezava WiFi: ne potrebujete žice USB ali bluetootha;
+- Šifriranje TLS od enega konca do drugega: vaši podatki so varni.
+
+Upoštevajte, da morate za delovanje tega programa na računalnik namestiti program KDE Connect in posodobiti namizno različico z različico za Android, da bodo delovale najnovejše funkcije.
+
+Informacija o dovoljenjih za občutljive informacije:
+* Dovoljenje za dostop: Zahtevano za prejemanje vhoda iz druge naprave za upravljanje vašega telefona z Androidom, če uporabljate zmožnost oddaljenega vhoda.
+* Dovoljenje lokacije v zaledju: Zahtevano, da se ve na katero WiFi omrežje ste povezani, če uporabljate zmožnost zaupanja vrednega omrežja.
+
+KDE Connect nikoli ne pošilja nobenih informacij niti za KDE niti kateri tretji stranki. KDE Connect pošilja podatke iz ene naprave do druge neposredno z uporabo lokalne mreže, nikoli preko interneta in z uporabo šifriranja od začetka do konca.
+Ta program je del odprto-kodnega projekta in obstaja po zaslugi vseh ljudi, ki so prispevali. Obiščite spletno mesto in si zagotovite izvorno kodo.

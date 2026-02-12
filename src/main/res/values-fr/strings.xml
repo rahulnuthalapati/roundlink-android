@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="kde_connect">KDEConnect</string>
+  <string name="manifest_label_share">Envoyer vers un périphérique</string>
+  <string name="foreground_notification_no_devices">Connecté à aucun périphérique</string>
+  <string name="foreground_notification_devices">Connecté à : %s</string>
+  <string name="foreground_notification_send_clipboard">Envoyer le presse-papier</string>
+  <string name="pref_plugin_telephony">Notifications de téléphonie</string>
+  <string name="pref_plugin_telephony_desc">Envoie des notifications pour les appels entrants</string>
+  <string name="pref_plugin_battery">Rapport sur la batterie</string>
+  <string name="pref_plugin_battery_desc">Rapport périodique sur l\'état de la batterie</string>
+  <string name="pref_plugin_connectivity_report">Rapport sur la connectivité</string>
+  <string name="pref_plugin_connectivity_report_desc">Signaler la force du signal du réseau et son état</string>
+  <string name="pref_plugin_digitizer">Tablette graphique</string>
+  <string name="pref_plugin_digitizer_desc">Utiliser votre périphérique pour une tablette graphique sensible aux appuis tactiles</string>
+  <string name="pref_plugin_sftp">Accès au système de fichiers</string>
+  <string name="pref_plugin_sftp_desc">Permettre de parcourir le système de fichiers du périphérique à distance</string>
+  <string name="pref_plugin_clipboard">Synchronisation avec le presse-papiers</string>
+  <string name="pref_plugin_clipboard_desc">Partage le contenu du presse-papiers</string>
+  <string name="pref_plugin_clipboard_sent">Presse-papiers envoyé</string>
+  <string name="pref_plugin_mousepad">Contrôle distant</string>
+  <string name="pref_plugin_mousepad_desc_nontv">Utilisez votre téléphone ou votre tablette comme un pavé tactile et clavier</string>
+  <string name="pref_plugin_mousepad_desc_tv">Utilisez votre téléphone ou votre tablette comme une télécommande de télévision</string>
+  <string name="pref_plugin_presenter">Télécommande de présentation</string>
+  <string name="pref_plugin_presenter_desc">Utilisez votre appareil pour changer les diapositives d\'une présentation</string>
+  <string name="pref_plugin_remotekeyboard">Recevoir les appuis de touches distants</string>
+  <string name="pref_plugin_remotekeyboard_desc">Recevoir les appuis de touches des périphériques distants</string>
+  <string name="pref_plugin_mpris">Contrôles multimédia</string>
+  <string name="pref_plugin_mpris_desc">Fournit une télécommande pour votre lecteur multimédia</string>
+  <string name="pref_plugin_runcommand">Exécuter une commande</string>
+  <string name="pref_plugin_runcommand_desc">Exécuter des commandes à distance sur votre téléphone ou tablette</string>
+  <string name="pref_plugin_contacts">Synchronisation de contacts</string>
+  <string name="pref_plugin_contacts_desc">Permet de synchroniser le carnet de contacts du périphérique</string>
+  <string name="pref_plugin_ping">Commande « Ping »</string>
+  <string name="pref_plugin_ping_desc">Envoie et reçoit des commandes « Ping »</string>
+  <string name="pref_plugin_notifications">Synchronisation des notifications</string>
+  <string name="pref_plugin_notifications_desc">Accédez à vos notifications depuis d\'autres périphériques</string>
+  <string name="pref_plugin_receive_notifications">Recevoir les notifications</string>
+  <string name="pref_plugin_receive_notifications_desc">Recevoir les notifications du périphérique et les afficher dans Android</string>
+  <string name="pref_plugin_sharereceiver">Partager et recevoir</string>
+  <string name="pref_plugin_sharereceiver_desc">Partagez des URLs et des fichiers entre périphériques</string>
+  <string name="device_list_empty">Pas de périphériques</string>
+  <string name="ok">Ok</string>
+  <string name="sad_ok">Ok :(</string>
+  <string name="cancel">Annuler</string>
+  <string name="open_settings">Accéder aux paramètres</string>
+  <string name="no_permissions">Vous devez accorder la permission d\'accéder aux notifications</string>
+  <string name="no_permission_mprisreceiver">Pour pouvoir contrôler vos lecteurs multimédia, veuillez permettre l\'accès aux notifications</string>
+  <string name="no_permissions_remotekeyboard">Vous devez activer le Clavier à distance KDEConnect pour recevoir les appuis sur les touches</string>
+  <string name="send_ping">Envoyer un « Ping »</string>
+  <string name="open_mpris_controls">Contrôles multimédia</string>
+  <string name="remotekeyboard_editing_only_title">Gérer les appuis de touches à distance uniquement lors de l\'édition</string>
+  <string name="remotekeyboard_not_connected">Aucune connexion active d\'un clavier à distance disponible, établissez-en une dans « KDEConnect ».</string>
+  <string name="remotekeyboard_connected">La connexion au clavier sans fil est active</string>
+  <string name="remotekeyboard_multiple_connections">Plusieurs connexions à des claviers sans fil sont disponibles, sélectionnez le périphérique à configurer</string>
+  <string name="open_mousepad">Contrôle distant</string>
+  <string name="open_mousepad_tv">Télécommande de téléviseur</string>
+  <string name="mousepad_info">Faites glisser votre doigt sur l\'écran pour déplacer le pointeur de la souris. Tapotez pour cliquer et utilisez deux / trois doigts pour les clics droit et centre. Utilisez 2 doigts pour faire un défilement. Faites un appui prolongé pour réaliser un glisser-déposer. La fonctionnalité de gyroscope de souris peut être activée à partir des préférences de module externe.</string>
+  <string name="mousepad_info_no_gestures">Faites glisser un doigt sur l\'écran pour déplacer le pointeur de souris. Tapotez sur l\'écran pour effectuer un clic.</string>
+  <string name="mousepad_keyboard_input_not_supported">La saisie par le clavier n\'est pas pris en charge par le périphérique associé.</string>
+  <string name="mousepad_single_tap_settings_title">Définir une action pour tapotage avec un doigt</string>
+  <string name="mousepad_double_tap_settings_title">Action pour l\'appui à deux doigts</string>
+  <string name="mousepad_triple_tap_settings_title">Action pour l\'appui à trois doigts</string>
+  <string name="mousepad_sensitivity_settings_title">Définir la sensibilité du pavé tactile</string>
+  <string name="mousepad_mouse_buttons_title">Afficher les boutons de souris</string>
+  <string name="mousepad_acceleration_profile_settings_title">Définir l\'accélération du pointeur</string>
+  <string name="mousepad_scroll_direction_title">Inverser la direction du défilement</string>
+  <string name="mousepad_scroll_sensitivity_title">Sensibilité du défilement</string>
+  <string name="gyro_mouse_enabled_title">Activer la souris avec gyroscope</string>
+  <string name="gyro_mouse_sensitivity_title">Sensibilité du gyroscope</string>
+  <string name="bigscreen_hide_mouse_input">Masquer le bouton d\'entrée à distance pour la souris et du clavier</string>
+  <string name="bigscreen_show_home_title">Afficher le bouton de retour à l\'accueil</string>
+  <string name="bigscreen_show_back_title">Afficher les boutons de retour en arrière</string>
+  <string-array name="mousepad_tap_entries">
+    <item>Clic gauche</item>
+    <item>Clic droit</item>
+    <item>Clic central</item>
+    <item>Rien</item>
+  </string-array>
+  <string-array name="mousepad_sensitivity_entries">
+    <item>Le plus lent</item>
+    <item>Assez lent</item>
+    <item>Par défaut</item>
+    <item>Assez rapide</item>
+    <item>Le plus rapide</item>
+  </string-array>
+  <string-array name="mousepad_acceleration_profile_entries">
+    <item>Aucune accélération</item>
+    <item>Très faible</item>
+    <item>Relativement faible</item>
+    <item>Moyenne</item>
+    <item>Relativement forte</item>
+    <item>Très forte</item>
+  </string-array>
+  <string name="sendkeystrokes_send_to">Envoyez les appuis de touches vers</string>
+  <string name="sendkeystrokes_textbox_hint">Envoyez les appuis de touches vers l\'hôte</string>
+  <string name="sendkeystrokes_disabled_toast">L\'envoi des appuis de touches est désactivé. Veuillez l\'activer dans la configuration.</string>
+  <string name="sendkeystrokes_wrong_data">Type « MIME » non valable. Doit être « text / x-keystrokes »</string>
+  <string name="sendkeystrokes_sent_text">%1s envoyés vers le périphérique %2s</string>
+  <string name="sendkeystrokes_pref_category_summary">Ce module permet aux autres applications de partager des portions de texte comme des appuis de touches, qui seront envoyées vers l\'hôte connecté.</string>
+  <string name="sendkeystrokes_pref_category_title">Envoyez les appuis de touches</string>
+  <string name="sendkeystrokes_pref_enabled">Autoriser l\'envoi des appuis de touches</string>
+  <string name="sendkeystrokes_pref_enabled_summary">Attendre des données avec le type « MIME » « text / x-keystrokes »</string>
+  <string name="sendkeystrokes_safe_text_enabled">Envoyez du texte confirmé immédiatement</string>
+  <string name="sendkeystrokes_safe_text_enabled_summary">Envoyez des chaines courtes uniquement numériques sans confirmation</string>
+  <string name="pref_plugin_mousepad_send_keystrokes">Envoyez comme appuis de touches</string>
+  <string name="mouse_receiver_plugin_description">Recevoir les mouvements de la souri distante</string>
+  <string name="mouse_receiver_plugin_name">Récepteur de souris</string>
+  <string name="mouse_receiver_no_permissions">Pour recevoir des entrées tactiles à distance, vous devez accorder des autorisations d\'accessibilité pour contrôler entièrement votre périphérique</string>
+  <string name="view_status_title">État</string>
+  <string name="battery_status_format">Batterie : %d %%</string>
+  <string name="battery_status_low_format">Batterie : %d %% Batterie faible</string>
+  <string name="battery_status_charging_format">Batterie : %d%% en charge</string>
+  <string name="category_connected_devices">Périphériques connectés</string>
+  <string name="category_not_paired_devices">Périphériques disponibles</string>
+  <string name="category_remembered_devices">Périphériques mémorisés</string>
+  <string name="device_menu_plugins">Paramètres des modules externes</string>
+  <string name="device_menu_unpair">Dissocier</string>
+  <string name="pair_new_device">Associer un nouveau périphérique</string>
+  <string name="cancel_pairing">Annuler la demande d\'association</string>
+  <string name="unknown_device">Périphérique inconnu</string>
+  <string name="error_not_reachable">Périphérique inaccessible</string>
+  <string name="error_already_paired">Périphérique déjà associé</string>
+  <string name="error_timed_out">Délai expiré</string>
+  <string name="error_clocks_not_match">Les horloges du périphérique ne sont pas synchronisées.</string>
+  <string name="error_canceled_by_user">Annulé par l\'utilisateur</string>
+  <string name="error_canceled_by_other_peer">Annulé par un autre homologue</string>
+  <string name="encryption_info_title">Informations de chiffrement</string>
+  <string name="my_device_fingerprint">L\'empreinte SHA256 du certificat de votre périphérique est :</string>
+  <string name="remote_device_fingerprint">L\'empreinte « SHA256 » du certificat du périphérique distant est :</string>
+  <string name="pair_requested">Paire demandée</string>
+  <string name="pair_succeeded">Appairage effectué avec succès</string>
+  <string name="pairing_request_from">Demande d\'association provenant de « %1s »</string>
+  <plurals name="incoming_file_title">
+    <item quantity="one">%1$d fichier reçu de %2$s</item>
+    <item quantity="other">%1$d fichiers reçus de %2$s</item>
+  </plurals>
+  <plurals name="incoming_files_text">
+    <item quantity="one">Fichier : %1s</item>
+    <item quantity="other">(Fichier %2$d sur %3$d) : %1$s</item>
+  </plurals>
+  <plurals name="outgoing_file_title">
+    <item quantity="one">Envoi de %1$d fichier à %2$s</item>
+    <item quantity="other">Envoi de %1$d fichiers à %2$s</item>
+  </plurals>
+  <plurals name="outgoing_files_text">
+    <item quantity="one">Fichier : %1$s</item>
+    <item quantity="other">(Fichier %2$d sur %3$d) : %1$s</item>
+  </plurals>
+  <plurals name="received_files_title">
+    <item quantity="one">Fichier reçu de %1$s</item>
+    <item quantity="other">%2$d fichiers reçus de %1$s</item>
+  </plurals>
+  <plurals name="received_files_fail_title">
+    <item quantity="one">Impossible de recevoir le fichier depuis %1$s</item>
+    <item quantity="other">Impossible de recevoir %2$d fichiers sur %3$d depuis %1$s</item>
+  </plurals>
+  <plurals name="sent_files_title">
+    <item quantity="one">Fichier envoyé à %1$s</item>
+    <item quantity="other">%2$d fichiers envoyés à %1$s</item>
+  </plurals>
+  <plurals name="send_files_fail_title">
+    <item quantity="one">Impossible d\'envoyer le fichier à %1$s</item>
+    <item quantity="other">Impossible d\'envoyer %2$d fichiers sur %3$d à %1$s</item>
+  </plurals>
+  <string name="tap_to_open">Tapotez pour ouvrir</string>
+  <string name="received_file_text">Appuyez pour ouvrir %1s</string>
+  <string name="cannot_create_file">Impossible de créer le fichier %s</string>
+  <string name="tap_to_answer">Cliquer pour répondre</string>
+  <string name="left_click">Envoyer un clic gauche</string>
+  <string name="right_click">Envoyer un clic droit</string>
+  <string name="middle_click">Envoyer un clic central</string>
+  <string name="show_keyboard">Afficher le clavier</string>
+  <string name="show_mouse_and_keyboard">Afficher la souris et le clavier</string>
+  <string name="device_not_paired">Périphérique non associé</string>
+  <string name="pairing_duplicate_names">Attention : il existe plusieurs périphériques portant le même nom.</string>
+  <string name="request_pairing">Demande d\'association</string>
+  <string name="pairing_accept">Accepter</string>
+  <string name="pairing_reject">Rejeter</string>
+  <string name="pairing_explanation">L\'association de deux périphériques leur donnera un accès réciproque. Veuillez n\'associer que vos propres périphériques.</string>
+  <string name="settings">Configuration</string>
+  <string name="mpris_play">Lire</string>
+  <string name="mpris_pause">Pause</string>
+  <string name="mpris_previous">Précédent</string>
+  <string name="mpris_rew">Retour rapide</string>
+  <string name="mpris_ff">Avance rapide</string>
+  <string name="mpris_next">Suivant</string>
+  <string name="mpris_loop">En boucle</string>
+  <string name="mpris_shuffle">Mélanger</string>
+  <string name="mpris_volume">Volume</string>
+  <string name="mpris_time_settings_title">Boutons avance / retour rapide.</string>
+  <string name="mpris_time_settings_summary">Ajustez le temps pour l\'avance ou retour rapide.</string>
+  <string-array name="mpris_time_entries">
+    <item>10 secondes</item>
+    <item>20 secondes</item>
+    <item>30 secondes</item>
+    <item>1 minute</item>
+    <item>2 minutes</item>
+  </string-array>
+  <string name="mpris_notifications_explanation">Les permissions pour les notifications sont nécessaires pour afficher des média distants dans le panneau des notifications.</string>
+  <string name="mpris_notification_settings_title">Afficher la notification de contrôle du lecteur multimédia</string>
+  <string name="mpris_notification_settings_summary">Vous permet de contrôler vos lecteurs multimédia sans ouvrir KDEConnect.</string>
+  <string name="share_to">Partager vers…</string>
+  <string name="unreachable_device_dynamic_shortcut">%s (✕)</string>
+  <string name="unreachable_device_url_share_text">Les URL partagées vers un appareil inaccessible lui seront transmises une fois qu\'il re-deviendra accessible.\n\n</string>
+  <string name="unreachable_share_toast">L\'URL sera partagée à la prochaine connexion du périphérique.</string>
+  <string name="protocol_version">Version de protocole :</string>
+  <string name="protocol_version_newer">Le périphérique utilise une version plus récente du protocole</string>
+  <string name="plugin_settings_with_name">Configuration %s</string>
+  <string name="invalid_device_name">Nom de périphérique non valable</string>
+  <string name="shareplugin_text_saved">Texte reçu et enregistré dans le presse-papiers</string>
+  <string name="custom_devices_settings">Liste personnalisée de périphériques</string>
+  <string name="custom_devices_settings_summary">%d périphériques ajoutés de façon manuelle</string>
+  <string name="custom_device_list">Ajouter des périphériques par IP</string>
+  <string name="custom_device_deleted">Périphérique personnalisé supprimé</string>
+  <string name="custom_device_list_help">Si votre périphérique n\'est pas détecté automatiquement, vous pouvez ajouter son adresse IP ou son nom d\'hôte grâce à un clic sur le bouton ci-dessous</string>
+  <string name="custom_device_fab_hint">Ajouter un périphérique</string>
+  <string name="undo">Annuler</string>
+  <string name="share_notification_preference">Notifications sonores</string>
+  <string name="share_notification_preference_summary">Vibrer et jouer un son quand un fichier est reçu</string>
+  <string name="share_destination_customize">Personnaliser le dossier de destination</string>
+  <string name="share_destination_customize_summary_disabled">Les fichiers reçus apparaitront dans le dossier de téléchargement</string>
+  <string name="share_destination_customize_summary_enabled">Les fichiers seront enregistrés dans le dossier ci-dessous</string>
+  <string name="share_destination_folder_preference">Dossier de destination</string>
+  <string name="share">Partager</string>
+  <string name="share_received_file">Partager « %s »</string>
+  <string name="title_activity_notification_filter">Filtre des notifications</string>
+  <string name="filter_apps_info">Les notifications seront synchronisées pour les applications sélectionnées.</string>
+  <string name="show_notification_if_screen_off">Envoyer des notifications uniquement si l\'écran est éteint.</string>
+  <string name="add_device_dialog_title">Ajouter un périphérique</string>
+  <string name="add_device_hint">Nom d\'hôte ou adresse IP</string>
+  <string name="sftp_preference_configured_storage_locations">Emplacements de stockage configurés</string>
+  <string name="sftp_preference_add_storage_location_title">Ajouter un emplacement de stockage</string>
+  <string name="sftp_preference_edit_storage_location">Modifier un emplacement de stockage</string>
+  <string name="sftp_storage_preference_storage_location">Emplacement de stockage</string>
+  <string name="sftp_storage_preference_storage_location_already_configured">Cet emplacement est déjà configuré</string>
+  <string name="sftp_storage_preference_click_to_select">cliquez pour sélectionner</string>
+  <string name="sftp_storage_preference_display_name">Nom d\'affichage</string>
+  <string name="sftp_storage_preference_display_name_already_used">Ce nom d\'affichage est déjà utilisé</string>
+  <string name="sftp_storage_preference_display_name_cannot_be_empty">Impossible de configurer un nom d\'affichage vide</string>
+  <string name="sftp_action_mode_menu_delete">Supprimer</string>
+  <string name="sftp_no_storage_locations_configured">Aucun emplacement stockage n\'est configuré</string>
+  <string name="sftp_saf_permission_explanation">Vous devez configurer des emplacements de stockage pour accéder aux fichiers à distance</string>
+  <string name="sftp_manage_storage_permission_explanation">Pour permettre l\'accès à distance aux fichiers sur ce périphérique, vous devez autoriser KDEConnect à gérer l\'enregistrement.</string>
+  <string name="sftp_missing_permission_error">Autorisations manquantes : accès au système de fichiers</string>
+  <string name="no_players_connected">Aucun lecteur trouvé</string>
+  <string name="send_files">Envoyer des fichiers</string>
+  <string name="use_digitizer">Utiliser comme une tablette graphique</string>
+  <string name="digitizer_draw_button">Dessiner en utilisant le doigt</string>
+  <string name="digitizer_preference_title_hide_draw_button">Masquer le bouton pour dessiner</string>
+  <string name="digitizer_preference_summary_hide_draw_button">Masque complètement le bouton pour dessiner, rendant impossible le dessin avec un doigt. Ne l\'activez que si votre périphérique prend en charge l\'entrée avec stylet.</string>
+  <string name="digitizer_preference_title_draw_button_side">Côté du bouton « Dessiner avec le doigt »</string>
+  <string name="digitizer_preference_title_enable_exit_fullscreen_gesture">Activer le geste de sortie du mode de plein écran</string>
+  <string name="digitizer_preference_summary_enable_exit_fullscreen_gesture">Si cette option est activée, l\'appui et le maintien sur le pavé tactile avec votre doigt désactivera le mode plein écran.</string>
+  <string-array name="digitizer_preference_entries_draw_button_side">
+    <item>En haut à gauche</item>
+    <item>En haut à droite</item>
+    <item>En bas à gauche</item>
+    <item>En bas à droite</item>
+  </string-array>
+  <string name="block_notification_contents">Bloquer les contenus de notifications</string>
+  <string name="block_notification_images">Bloquer les images de notifications</string>
+  <string name="pairing_title">Périphériques KDEConnect</string>
+  <string name="pairing_description">Les autres périphériques utilisant KDEConnect dans votre réseau apparaissent ici.</string>
+  <string name="device_rename_title">Renommer le périphérique</string>
+  <string name="device_rename_confirm">Renommer</string>
+  <string name="refresh">Mettre à jour</string>
+  <string name="unreachable_description">Ce périphérique associé n\'est pas accessible. Assurez-vous qu\'il est bien connecté au même réseau.</string>
+  <string name="no_wifi">Vous n\'êtes connecté à aucun réseau Wi-Fi, il est possible que vous ne puissiez afficher aucun appareil. Cliquez ici pour activer le Wi-Fi.</string>
+  <string name="on_non_trusted_message">Le réseau n\'est pas un réseau de confiance : découverte automatique désactivée.</string>
+  <string name="no_file_browser">Aucun navigateur de fichiers installé.</string>
+  <string name="pref_plugin_telepathy">Envoyer un SMS</string>
+  <string name="pref_plugin_telepathy_desc">Envoyer des SMS depuis votre bureau</string>
+  <string name="pref_plugin_telepathy_mms">Envoyer un « MMS »</string>
+  <string name="pref_plugin_telepathy_mms_desc">Pour pouvoir envoyer des « MMS » à partir de « KDEConnect », vous avez besoin de définir « KDEConnect » comme votre application par défaut pour les « SMS ».</string>
+  <string name="findmyphone_title">Trouver mon téléphone</string>
+  <string name="findmyphone_title_tablet">Trouver ma tablette</string>
+  <string name="findmyphone_title_tv">Trouver ma télévision</string>
+  <string name="findmyphone_description">Fait sonner le périphérique pour vous aider à le retrouver</string>
+  <string name="findmyphone_found">Trouvé</string>
+  <string name="open">Ouvrir</string>
+  <string name="close">Fermer</string>
+  <string name="plugins_need_permission">Certains modules externes nécessitent des permissions pour fonctionner (tapez pour plus d\'informations) :</string>
+  <string name="permission_explanation">Ce module externe nécessite des permissions pour fonctionner</string>
+  <string name="all_permissions_granted">Tous les droits d\'accès ont été autorisés 🎉</string>
+  <string name="optional_permission_explanation">Vous devez accorder des permissions supplémentaires pour activer toutes les fonctionnalités</string>
+  <string name="plugins_need_optional_permission">Certaines fonctionnalités de modules externes sont désactivées faute de permissions suffisantes (tapez pour plus d\'informations) :</string>
+  <string name="share_optional_permission_explanation">Pour la réception de fichiers, vous devez autoriser un accès en écriture.</string>
+  <string name="share_notifications_explanation">Pour afficher l\'avancement lors de l\'envoi et de la réception de fichiers, vous devez autoriser les notifications</string>
+  <string name="telepathy_permission_explanation">Pour lire et écrire des SMS depuis votre ordinateur, veuillez permettre l\'accès aux SMS</string>
+  <string name="telephony_permission_explanation">Pour voir les appels depuis votre ordinateur, veuillez permettre l\'accès au journal des appels et à l\'état du téléphone</string>
+  <string name="telephony_optional_permission_explanation">Pour voir le nom du contact au lieu du numéro de téléphone, veuillez permettre l\'accès aux contacts du téléphone</string>
+  <string name="contacts_permission_explanation">Pour partager votre carnet de contacts avec votre ordinateur, veuillez permettre l\'accès aux contacts du téléphone</string>
+  <string name="contacts_per_device_confirmation">Vos contacts téléphoniques seront copiés sur ce périphérique. Ainsi, ils pourront être utilisés par l\'application « SMS » de KDEConnect et d\'autres applications.</string>
+  <string name="select_ringtone">Sélectionnez une sonnerie</string>
+  <string name="telephony_pref_blocked_title">Numéros bloqués</string>
+  <string name="telephony_pref_blocked_dialog_desc">Ne pas afficher les appels et les SMS provenant de ces numéros. Veuillez renseigner un numéro par ligne</string>
+  <string name="mpris_coverart_description">Illustration du média actuel</string>
+  <string name="settings_icon_description">Icône des paramètres</string>
+  <string name="presenter_fullscreen">Plein écran</string>
+  <string name="presenter_exit">Quitter la présentation</string>
+  <string name="presenter_lock_tip">Vous pouvez verrouiller votre appareil et utiliser les touches de volume pour passer d\'une diapositive à l\'autre</string>
+  <string name="add_command">Ajouter une commande</string>
+  <string name="addcommand_explanation">Aucune commande enregistrée</string>
+  <string name="addcommand_explanation2">Vous pouvez ajouter de nouvelles commandes dans la configuration système de KDEConnect</string>
+  <string name="add_command_description">Vous pouvez ajouter des commandes sur votre ordinateur</string>
+  <string name="pref_plugin_mprisreceiver">Contrôle du lecteur multimédia</string>
+  <string name="pref_plugin_mprisreceiver_desc">Contrôlez les lecteurs multimédia de votre téléphone depuis un autre appareil</string>
+  <string name="notification_channel_default">Autres notifications</string>
+  <string name="notification_channel_persistent">Notification persistante</string>
+  <string name="notification_channel_media_control">Contrôle multimédia</string>
+  <string name="notification_channel_filetransfer">Réception en cours d\'un fichier</string>
+  <string name="notification_channel_filetransfer_complete">Réception en cours d\'un fichier terminée</string>
+  <string name="notification_channel_filetransfer_upload">Envoi en cours d\'un fichier</string>
+  <string name="notification_channel_filetransfer_error">Erreur de transfert de fichiers</string>
+  <string name="notification_channel_high_priority">Haute priorité</string>
+  <string name="mpris_stop">Arrêter le lecteur actuel</string>
+  <string name="copy_url_to_clipboard">Copier l\'URL dans le presse-papiers</string>
+  <string name="clipboard_toast">Copié dans le presse-papier</string>
+  <string name="runcommand_notreachable">Le périphérique est inaccessible</string>
+  <string name="runcommand_notpaired">Le périphérique n\'est pas associé</string>
+  <string name="runcommand_nosuchdevice">Ce périphérique n\'existe pas</string>
+  <string name="runcommand_noruncommandplugin">Le module externe Exécuter une commande n\'est pas activé sur ce périphérique</string>
+  <string name="runcommand_category_device_controls_title">Contrôles de périphérique</string>
+  <string name="runcommand_device_controls_summary">Si votre périphérique prend en charge les commandes de périphérique, les commandes que vous avez configurées y apparaitront.</string>
+  <string name="set_runcommand_name_as_title">set_runcommand_name_as_title</string>
+  <string name="runcommand_name_as_title_title">Afficher un nom comme titre</string>
+  <string name="pref_plugin_findremotedevice">Trouver un périphérique distant</string>
+  <string name="pref_plugin_findremotedevice_desc">Faire sonner votre périphérique distant</string>
+  <string name="ring">Faire sonner</string>
+  <string name="pref_plugin_systemvolume">Volume du système</string>
+  <string name="pref_plugin_systemvolume_desc">Contrôler le volume du système du périphérique distant</string>
+  <string name="mute">Muet</string>
+  <string name="all">Tous</string>
+  <string name="devices">Périphériques</string>
+  <string name="settings_rename">Nom du périphérique</string>
+  <string name="settings_dark_mode">Thème sombre</string>
+  <string name="settings_export_logs">Exporter les journaux de KDEConnect</string>
+  <string name="settings_export_logs_text">Générez un fichier avec des informations d\'exécution pouvant aider à résoudre les problèmes.</string>
+  <string name="settings_more_settings_title">Plus de paramètres</string>
+  <string name="settings_more_settings_text">Les paramètres par appareil sont disponibles dans la rubrique « Paramètres des modules externes » sur l\'appareil.</string>
+  <string name="setting_persistent_notification">Afficher une notification persistante</string>
+  <string name="setting_persistent_notification_oreo">Notification persistante</string>
+  <string name="setting_persistent_notification_description">Appuyez pour activer/désactiver dans la configuration des notifications</string>
+  <string name="extra_options">Options supplémentaires</string>
+  <string name="privacy_options">Options de confidentialité</string>
+  <string name="set_privacy_options">Configurez vos options de confidentialité</string>
+  <string name="block_contents">Bloquer les contenus des notifications</string>
+  <string name="block_images">Bloquer les images des notifications</string>
+  <string name="notification_channel_receivenotification">Notifications provenant d\'autres périphériques</string>
+  <string name="no_app_for_opening">Aucune application adaptée trouvée pour ouvrir ce fichier.</string>
+  <string name="remote_keyboard_service">Clavier à distance KDEConnect</string>
+  <string name="presenter_pointer">Pointeur</string>
+  <string name="trusted_networks">Réseaux de confiance</string>
+  <string name="trusted_networks_desc">Restreindre la découverte automatique aux réseaux connus</string>
+  <string name="add_trusted_network">Ajouter %1s</string>
+  <string name="empty_trusted_networks_list_text">Vous n\'avez pas encore ajouté de réseau de confiance</string>
+  <string name="allow_all_networks_text">Tout autoriser</string>
+  <string name="location_permission_needed_title">Permissions requises</string>
+  <string name="bluetooth_permission_needed_desc">KDEConnect a besoin d\'autorisations pour se connecter aux périphériques proches afin que les périphériques couplés à l\'aide de Bluetooth soient disponibles dans KDEConnect.</string>
+  <string name="location_permission_needed_desc">KDEConnect a besoin de la permission d\'accéder à la localisation en arrière-plan pour connaître le réseau Wifi sur lequel vous êtes connecté, même si l\'application est en arrière-plan. En effet, le nom des réseaux Wifi autour de vous pourrait être utilisé pour trouver votre emplacement, même si ce n\'est pas ce que KDEConnect fait.</string>
+  <string name="clipboard_android_x_incompat">Android 10 a supprimé l\'accès des applications au presse-papier. Ce module externe sera désactivé.</string>
+  <string name="mpris_open_url">Continuer la lecture ici</string>
+  <string name="cant_open_url">Impossible d\'ouvrir l\'URL pour continuer la lecture</string>
+  <string name="bigscreen_home">Accueil</string>
+  <string name="bigscreen_up">Vers le haut</string>
+  <string name="bigscreen_left">Vers la gauche</string>
+  <string name="bigscreen_select">Sélectionner</string>
+  <string name="bigscreen_right">Vers la droite</string>
+  <string name="bigscreen_down">Vers le bas</string>
+  <string name="bigscreen_back">Précédent</string>
+  <string name="bigscreen_mic">Mic</string>
+  <string name="pref_plugin_bigscreen">Télécommande de téléviseur</string>
+  <string name="pref_plugin_bigscreen_desc">Utiliser votre périphérique comme télécommande pour Plasma Bigscreen</string>
+  <string name="bigscreen_optional_permission_explanation">Pour partager l\'entrée microphone de votre téléphone, vous devez donner accès à l\'entrée audio du téléphone.</string>
+  <string name="bigscreen_speech_extra_prompt">Discours</string>
+  <string name="message_reply_label">RÉPONDRE</string>
+  <string name="mark_as_read_label">MARQUER COMME LU</string>
+  <string name="user_display_name">Vous</string>
+  <string name="set_default_sms_app_title">Envoyer un « MMS »</string>
+  <string name="set_group_message_as_mms_title">Envoyer un ensemble de « SMS »</string>
+  <string name="set_long_text_as_mms_title">Envoyer un long message comme un « MMS »</string>
+  <string name="convert_to_mms_after_title">Convertir en « MMS »</string>
+  <string-array name="convert_to_mms_after_entries">
+    <item>Après un message</item>
+    <item>Après deux messages</item>
+    <item>Après trois messages</item>
+    <item>Après quatre messages</item>
+    <item>Après cinq messages</item>
+  </string-array>
+  <string name="theme_dialog_title">Choisir un thème</string>
+  <string-array name="theme_list">
+    <item>Défini par l\'économiseur de batterie</item>
+    <item>Léger</item>
+    <item>Sombre</item>
+  </string-array>
+  <string-array name="theme_list_v28">
+    <item>Valeur par défaut du système</item>
+    <item>Léger</item>
+    <item>Sombre</item>
+  </string-array>
+  <string name="report_bug">Signaler un bogue</string>
+  <string name="donate">Faire un don</string>
+  <string name="source_code">Code source</string>
+  <string name="licenses">Licences</string>
+  <string name="website">Site Internet</string>
+  <string name="about">À propos</string>
+  <string name="authors">Auteurs</string>
+  <string name="thanks_to">Remerciements à</string>
+  <string name="easter_egg">Œuf de Pâques</string>
+  <string name="email_contributor">Envoyer un courriel au contributeur\n%s</string>
+  <string name="visit_contributors_homepage">Visiter la page d\'accueil du contributeur\n%s</string>
+  <string name="version">Version %s</string>
+  <string name="about_kde">À propos de KDE</string>
+  <string name="kde_be_free">KDE - Soyez libre !</string>
+  <string name="kde">KDE</string>
+  <string name="konqi">Konqi</string>
+  <string name="rise_up">Debout !</string>
+  <string name="rise_down">Se lever</string>
+  <string name="click_here_to_type">Tapotez ici pour effectuer une saisie</string>
+  <string name="clear_compose">Effacer</string>
+  <string name="send_compose">Envoyer</string>
+  <string name="compose_send_title">Préparer l\'envoi</string>
+  <string name="open_compose_send">Composer du texte</string>
+  <string name="double_tap_to_drag">Tapotement double pour un glisser</string>
+  <string name="hold_to_drag">Maintenir pour faire glisser</string>
+  <string name="about_kde_about">&lt;h1&gt;A propos&lt;/h1&gt; &lt;p&gt;KDE est une communauté mondiale d\'ingénieurs en logiciel, d\'artistes d\'ingénieurs logiciels, d\'artistes, d\'écrivains, de traducteurs et de créateurs s\'engageant pour le développement de &lt;a href=https://www.gnu.org/philosophy/free-sw.html&gt; Logiciels libres &lt;/a &gt;. KDE développe l\'environnement de bureau Plasma, des centaines d\'applications, et les nombreuses bibliothèques logicielles les prenant en charge. KDE est une entreprise coopérative : aucune entité centrale ne contrôle sa direction ou ses produits. Au contraire, nous travaillons tous ensemble pour atteindre un objectif commun : construire le meilleur logiciel libre au monde. Tout le monde est est le bienvenu pour &lt;a href=https://community.kde.org/Get_Involved&gt;rejoindre et contribuer&lt;/a&gt; à KDE, y compris vous. &lt;/p&gt; Visitez &lt;a href=https://www.kde.org/&gt;https://www.kde.org/&lt;/a&gt; pour de plus amples informations sur la communauté KDE et les logiciels que nous développons.</string>
+  <string name="about_kde_report_bugs_or_wishes">&lt;h1&gt;Signaler des bogues ou des souhaits&lt;/h1&gt; &lt;p&gt; Les logiciels peuvent toujours être améliorés et l\'équipe KDE est prête à le faire. Cependant, vous - la personne utilisatrice - devez nous dire quand quelque chose ne fonctionne pas comme prévu ou pourrait être mieux fait. KDE dispose d\'un système de suivi des bogues. Visitez &lt;a href=https://bugs.kde.org/&gt;https://bugs.kde.org/&lt;/a&gt; ou utilisez le bouton bouton « Signaler un bogue » de la page « A propos » pour signaler les bogues. Si vous avez une suggestion d\'amélioration, vous pouvez aussi utiliser le système de suivi des bogues pour enregistrer votre souhait. Veuillez vous assurer de bien utiliser le niveau de gravité appelée « Liste de souhaits ».</string>
+  <string name="about_kde_join_kde">&lt;h1&gt;Rejoignez KDE&lt;/h1&gt; &lt;p&gt;Vous n\'avez pas besoin d\'être un développeur de logiciels pour être membre de l\'équipe de KDE. Vous pouvez rejoindre les équipes nationales qui traduisent les interfaces des programmes. Vous pouvez fournir des illustrations, des thèmes, des sons, et de la documentation améliorée. À vous de décider ! &lt;/p&gt; &lt;p&gt;Visitez la page &lt;a href=https://community.kde.org/Get_Involved&gt;https://community.kde.org/Get_Involved&lt;/a&gt; pour obtenir des informations sur certains projets auxquels vous pouvez participer.&lt;/p&gt; Si vous avez besoin de plus d\'informations ou de documentation, veuillez visitez la page &lt;a href=https://techbase.kde.org/&gt;https://techbase.kde.org/&lt;/a&gt;, qui vous fournira ce dont vous avez besoin.</string>
+  <string name="about_kde_support_kde">&lt;h1&gt;Soutenir KDE&lt;/h1&gt; &lt;p&gt; Les logiciels de KDE sont et seront toujours disponibles gratuitement. Cependant, leur création n\'est pas gratuite. &lt;p&gt;Pour soutenir le développement, la communauté KDE a créée KDE e.V., une organisation à but non lucratif, légalement fondée en Allemagne. KDE e.V. représente la communauté KDE pour les questions juridiques et financières. Veuillez consulter la page &lt;a href=https://ev.kde.org/&gt;https://ev.kde.org/&lt;/a&gt; pour plus d\'informations sur KDE e.V.&lt;/p&gt; &lt;p&gt;KDE bénéficie de plusieurs types de contributions, y compris financières. Nous utilisons les fonds pour rembourser les membres et d\'autres personnes pour les dépenses qu\'ils engagent pour leurs contributions. D\'autres fonds sont utilisés pour le soutien juridique et l\'organisation de conférences et de réunions. Nous aimerions vous encourager à soutenir nos efforts par un don financier, en utilisant l\'un des moyens décrits sur la page &lt;a href=https://www.kde.org/community/donations/&gt;https://www.kde.org/community/donations/&lt;/a&gt;. &lt;/p&gt; Nous vous remercions par avance pour votre soutien.</string>
+  <string name="maintainer_and_developer">Mainteneur et développeur</string>
+  <string name="developer">Développeur</string>
+  <string name="apple_support">Prise en charge de macOS. Travail en cours sur la prise en charge de iOS.</string>
+  <string name="bug_fixes_and_general_improvements">Correction de bogues et améliorations générales</string>
+  <string name="samoilenko_yuri_task">Implémentation de SFTP, corrections de bogues et améliorations générales</string>
+  <string name="aniket_kumar_task">Améliorations du module externe pour SMS</string>
+  <string name="alex_fiestas_task">Améliorations du module externe pour les contacts</string>
+  <string name="maxim_leshchenko_task">Améliorations de l\'interface utilisateur et de cette page d\'à propos</string>
+  <string name="holger_kaelberer_task">Corrections du module externe de clavier sans fil et de bogues</string>
+  <string name="saikrishna_arcot_task">Prise en charge de l\'utilisation du clavier dans le module d\'entrée à distance, corrections de bogues et améliorations générales</string>
+  <string name="shellwen_chen_task">Implémentation de la sécurité de SFTP, amélioration de la maintenabilité de ce projet, corrections de bogues et améliorations générales</string>
+  <string name="everyone_else">Toutes les autres personnes ayant contribué à KDEConnect depuis plusieurs années</string>
+  <string name="send_clipboard">Envoyer le presse-papier</string>
+  <string name="tap_to_execute">Tapotez pour lancer</string>
+  <string name="plugin_stats">Statistiques des modules externes</string>
+  <string name="enable_udp_broadcast">Activer la découverte de périphériques « UDP »</string>
+  <string name="enable_bluetooth">Activer l\'interface Bluetooth (Bêta)</string>
+  <string name="receive_notifications_permission_explanation">Les notifications doivent être autorisées pour en recevoir d\'autres périphériques</string>
+  <string name="findmyphone_notifications_explanation">Les permissions pour les notifications sont nécessaires pour que le téléphone puisse sonner lorsque l\'application s\'exécute en tâche de fond</string>
+  <string name="no_notifications">Les notifications sont désactivées. Vous ne recevrez aucune notification pour les demandes d\'associations entrantes.</string>
+  <string name="mpris_keepwatching">Continuer la lecture</string>
+  <string name="mpris_keepwatching_settings_title">Continuer la lecture</string>
+  <string name="mpris_keepwatching_settings_summary">Afficher une notification silencieuse pour continuer à jouer sur ce périphérique après la fermeture du média.</string>
+  <string name="notification_channel_keepwatching">Continuer la lecture</string>
+  <string name="ping_result">Interrogé en %1$d millisecondes</string>
+  <string name="ping_failed">Il est impossible d\'interroger un périphérique (Par ping)</string>
+  <string name="ping_in_progress">Interrogation par ping en cours...</string>
+  <string name="device_host_invalid">L\'hôte est non valable. Veuillez utiliser un nom d\'hôte valable, IPv4 ou IPv6</string>
+  <string name="device_host_duplicate">L\'hôte existe déjà dans la liste.</string>
+  <string name="enable_fullscreen">Activer le mode en plein écran</string>
+  <string name="pref_presenter_enable_volume_keys_title">Les touches de volume font défiler les diapositives</string>
+  <string name="pref_presenter_sensitivity_title">Sensibilité du pointeur</string>
+  <string name="pref_presenter_enable_volume_keys_summary">La mise en veille n’est pas prise en charge sur les versions Android entre 13 et 15.</string>
+  <string name="presenter_volume_keys_foreground_tip">Vous pouvez laisser l\'écran ouvert et utiliser les touches de volume pour passer d\'une diapositive à une autre</string>
+  <string name="presenter_volume_keys_tip">Vous pouvez laisser l\'écran ouvert ou verrouiller votre périphérique pour utiliser les touches de volume pour passer d\'une diapositive à une autre</string>
+</resources>
