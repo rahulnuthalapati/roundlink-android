@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-  <string name="kde_connect">KDE Connect</string>
+  <string name="kde_connect">Roundlink</string>
   <string name="manifest_label_share">Poslat na zařízení</string>
   <string name="foreground_notification_no_devices">Žádná připojená zařízení</string>
   <string name="foreground_notification_devices">Připojen k: %s</string>
@@ -46,7 +46,7 @@
   <string name="open_settings">Otevřít nastavení</string>
   <string name="no_permissions">Pro zpřístupnění oznámení potřebujete oprávnění</string>
   <string name="no_permission_mprisreceiver">Abyste byli schopni ovládat vaše přehrávače médií, musíte udělit přístup k oznámením</string>
-  <string name="no_permissions_remotekeyboard">Pro zachytávání stisků kláves je potřeba aktivovat vzdálenou klávesnici KDE Connect</string>
+  <string name="no_permissions_remotekeyboard">Pro zachytávání stisků kláves je potřeba aktivovat vzdálenou klávesnici Roundlink</string>
   <string name="send_ping">Poslat ping</string>
   <string name="open_mpris_controls">Ovládání multimédií</string>
   <string name="remotekeyboard_editing_only_title">Ovládat vzdálené klávesy při editaci</string>
@@ -215,7 +215,7 @@
   </string-array>
   <string name="mpris_notifications_explanation">Oprávnění k upozorněním je potřeba pro zobrazení vzdálených médií v upozorněních</string>
   <string name="mpris_notification_settings_title">Obrazit oznámení pro ovládání médií</string>
-  <string name="mpris_notification_settings_summary">Umožnit ovládání přehrávače médií bez otevření KDE Connect</string>
+  <string name="mpris_notification_settings_summary">Umožnit ovládání přehrávače médií bez otevření Roundlink</string>
   <string name="share_to">Sdílet s...</string>
   <string name="unreachable_device_dynamic_shortcut">%s (✕)</string>
   <string name="unreachable_device_url_share_text">URL sdílená s nedostupným zařízením budou zaslána jakmile se stane dostupným.\n\n</string>
@@ -256,7 +256,7 @@
   <string name="sftp_action_mode_menu_delete">Smazat</string>
   <string name="sftp_no_storage_locations_configured">Nebyla nastavena umístění úložiště.</string>
   <string name="sftp_saf_permission_explanation">Pro vzdálený přístup k souborům musíte nastavit umístění úložišť</string>
-  <string name="sftp_manage_storage_permission_explanation">Pro umožnění vzdáleného přístupu k souborům na tomto zařízení musíte povolit aplikaci KDE Connect spravovat úložiště.</string>
+  <string name="sftp_manage_storage_permission_explanation">Pro umožnění vzdáleného přístupu k souborům na tomto zařízení musíte povolit aplikaci Roundlink spravovat úložiště.</string>
   <string name="sftp_missing_permission_error">Chybí oprávnění: přístup k souborovému systému</string>
   <string name="no_players_connected">Přehrávač nenalezen</string>
   <string name="send_files">Odeslat soubory</string>
@@ -275,8 +275,8 @@
   </string-array>
   <string name="block_notification_contents">Blokovat obsah upozornění</string>
   <string name="block_notification_images">Blokovat obrázky upozornění</string>
-  <string name="pairing_title">Zařízení KDE Connect</string>
-  <string name="pairing_description">Zde by se měla zobrazit další zařízení, na kterých běží KDE Connect ve stejné síti.</string>
+  <string name="pairing_title">Zařízení Roundlink</string>
+  <string name="pairing_description">Zde by se měla zobrazit další zařízení, na kterých běží Roundlink ve stejné síti.</string>
   <string name="device_rename_title">Přejmenovat zařízení</string>
   <string name="device_rename_confirm">Přejmenovat</string>
   <string name="refresh">Obnovit</string>
@@ -287,7 +287,7 @@
   <string name="pref_plugin_telepathy">Poslat SMS</string>
   <string name="pref_plugin_telepathy_desc">Posílejte zprávy ze své pracovní plochy</string>
   <string name="pref_plugin_telepathy_mms">Poslat MMS</string>
-  <string name="pref_plugin_telepathy_mms_desc">Abyste mohli posílat MMS pomocí KDE Connect jej musíte nastavit jako výchozí aplikaci na SMS.</string>
+  <string name="pref_plugin_telepathy_mms_desc">Abyste mohli posílat MMS pomocí Roundlink jej musíte nastavit jako výchozí aplikaci na SMS.</string>
   <string name="findmyphone_title">Najít můj telefon</string>
   <string name="findmyphone_title_tablet">Najít můj tablet</string>
   <string name="findmyphone_title_tv">Najít mou TV</string>
@@ -317,7 +317,7 @@
   <string name="presenter_lock_tip">Můžete zamknout zařízení a použít klávesy pro ovládání hlasitosti pro posun na předchozí/další snímek</string>
   <string name="add_command">Přidat příkaz</string>
   <string name="addcommand_explanation">Nejsou registrovány žádné příkazy</string>
-  <string name="addcommand_explanation2">Nové příkazy můžete přidat v nastavení systému KDE Connect</string>
+  <string name="addcommand_explanation2">Nové příkazy můžete přidat v nastavení systému Roundlink</string>
   <string name="add_command_description">V pracovním prostředí můžete přidat příkazy</string>
   <string name="pref_plugin_mprisreceiver">Ovládání přehrávače médií</string>
   <string name="pref_plugin_mprisreceiver_desc">Ovládejte přehrávače médií na vašem telefonu z jiného zařízení</string>
@@ -350,7 +350,7 @@
   <string name="devices">Zařízení</string>
   <string name="settings_rename">Název zařízení</string>
   <string name="settings_dark_mode">Tmavý motiv</string>
-  <string name="settings_export_logs">Exportovat záznamy KDE Connect</string>
+  <string name="settings_export_logs">Exportovat záznamy Roundlink</string>
   <string name="settings_export_logs_text">Vygenerovat soubor s informacemi o spuštění, které mohou pomoci ladit problémy.</string>
   <string name="settings_more_settings_title">Více nastavení</string>
   <string name="settings_more_settings_text">Nastavení \"pro každé zařízení\" lze najít v \'Nastavení modulu\' v zařízení.</string>
@@ -364,7 +364,7 @@
   <string name="block_images">Blokovat obrázky v oznámení</string>
   <string name="notification_channel_receivenotification">Oznámení z ostatních zařízení</string>
   <string name="no_app_for_opening">Pro otevření tohoto souboru nebyla nalezena vhodná aplikace</string>
-  <string name="remote_keyboard_service">Vzdálená klávesnice pro KDE Connect</string>
+  <string name="remote_keyboard_service">Vzdálená klávesnice pro Roundlink</string>
   <string name="presenter_pointer">Ukazatel</string>
   <string name="trusted_networks">Důvěryhodné sítě</string>
   <string name="trusted_networks_desc">Omezit automatické hledání na známé sítě</string>
@@ -372,8 +372,8 @@
   <string name="empty_trusted_networks_list_text">Nepřidali jste žádné důvěryhodné sítě</string>
   <string name="allow_all_networks_text">Povolit všechny</string>
   <string name="location_permission_needed_title">Získán přístup</string>
-  <string name="bluetooth_permission_needed_desc">KDE Connect vyžaduje oprávnění na připojení nedalekých zařízení, aby bylo možné párovat zařízení pomocí Bluetooth, které je dostupné v KDE Connect.</string>
-  <string name="location_permission_needed_desc">KDE Connect vyžaduje oprávnění o poloze na pozadí aby poznal WiFi, ke které jste připojeni i když je aplikace samotná na pozadí. To je kvůli tomu, že názvy sítí WiFi okolo vás by mohly být použity pro nalezení vaší polohy i když to není to, co KDE Connect dělá.</string>
+  <string name="bluetooth_permission_needed_desc">Roundlink vyžaduje oprávnění na připojení nedalekých zařízení, aby bylo možné párovat zařízení pomocí Bluetooth, které je dostupné v Roundlink.</string>
+  <string name="location_permission_needed_desc">Roundlink vyžaduje oprávnění o poloze na pozadí aby poznal WiFi, ke které jste připojeni i když je aplikace samotná na pozadí. To je kvůli tomu, že názvy sítí WiFi okolo vás by mohly být použity pro nalezení vaší polohy i když to není to, co Roundlink dělá.</string>
   <string name="clipboard_android_x_incompat">Android 10 odstranit přístup ke schránce pro všechny aplikace. Tento modul bude zakázán.</string>
   <string name="mpris_open_url">Pokračovat v přehrávání zde</string>
   <string name="cant_open_url">Nelze otevřít URL pro pokračování v přehrávání</string>
@@ -454,7 +454,7 @@
   <string name="holger_kaelberer_task">Vzdálené modul klávesnice a opravy chyb</string>
   <string name="saikrishna_arcot_task">Podpora použití klávesnice na vzdáleném vstupním modulu, opravy chyb a obecná zlepšení</string>
   <string name="shellwen_chen_task">Vylepšení zabezpečení SFTP, zlepšení udržovatelnosti projektu, opravy chyb a obecná vylepšení</string>
-  <string name="everyone_else">Každý kdo přispěl do KDE Connect během let</string>
+  <string name="everyone_else">Každý kdo přispěl do Roundlink během let</string>
   <string name="send_clipboard">Poslat schránku</string>
   <string name="tap_to_execute">Pro spuštění ťukněte sem</string>
   <string name="plugin_stats">Statistiky modulů</string>

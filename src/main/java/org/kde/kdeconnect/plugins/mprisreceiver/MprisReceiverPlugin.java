@@ -66,9 +66,10 @@ public class MprisReceiverPlugin extends Plugin {
             if (null == manager)
                 return false;
 
-            assert(mediaSessionChangeListener == null);
+            assert (mediaSessionChangeListener == null);
             mediaSessionChangeListener = new MediaSessionChangeListener();
-            manager.addOnActiveSessionsChangedListener(mediaSessionChangeListener, new ComponentName(context, NotificationReceiver.class), new Handler(Looper.getMainLooper()));
+            manager.addOnActiveSessionsChangedListener(mediaSessionChangeListener,
+                    new ComponentName(context, NotificationReceiver.class), new Handler(Looper.getMainLooper()));
 
             createPlayers(manager.getActiveSessions(new ComponentName(context, NotificationReceiver.class)));
             sendPlayerList();
@@ -146,7 +147,7 @@ public class MprisReceiverPlugin extends Plugin {
         if (np.has("setVolume")) {
             int volume = np.getInt("setVolume", 100);
             player.setVolume(volume);
-            //Setting volume doesn't seem to always trigger the callback
+            // Setting volume doesn't seem to always trigger the callback
             sendMetadata(player);
         }
 
@@ -180,12 +181,12 @@ public class MprisReceiverPlugin extends Plugin {
 
     @Override
     public @NonNull String[] getSupportedPacketTypes() {
-        return new String[]{PACKET_TYPE_MPRIS_REQUEST};
+        return new String[] { PACKET_TYPE_MPRIS_REQUEST };
     }
 
     @Override
     public @NonNull String[] getOutgoingPacketTypes() {
-        return new String[]{PACKET_TYPE_MPRIS};
+        return new String[] { PACKET_TYPE_MPRIS };
     }
 
     private final class MediaSessionChangeListener implements MediaSessionManager.OnActiveSessionsChangedListener {
@@ -211,10 +212,12 @@ public class MprisReceiverPlugin extends Plugin {
     }
 
     private void createPlayer(MediaController controller) {
-        // Skip the media session we created ourselves as KDE Connect
-        if (controller.getPackageName().equals(context.getPackageName())) return;
+        // Skip the media session we created ourselves as Roundlink
+        if (controller.getPackageName().equals(context.getPackageName()))
+            return;
 
-        MprisReceiverPlayer player = new MprisReceiverPlayer(controller, AppsHelper.appNameLookup(context, controller.getPackageName()));
+        MprisReceiverPlayer player = new MprisReceiverPlayer(controller,
+                AppsHelper.appNameLookup(context, controller.getPackageName()));
         MprisReceiverCallback cb = new MprisReceiverCallback(this, player);
         controller.registerCallback(cb, new Handler(Looper.getMainLooper()));
         playerCbs.put(player.getName(), cb);
@@ -229,11 +232,14 @@ public class MprisReceiverPlugin extends Plugin {
     }
 
     void sendAlbumArt(String playerName, @NonNull MprisReceiverCallback cb, @Nullable String requestedUrl) {
-        // NOTE: It is possible that the player gets killed in the middle of this method.
-        // The proper thing to do this case would be to abort the send - but that gets into the
-        //   territory of async cancellation or putting a lock.
-        // For now, we just continue to send the art- cb stores the bitmap, so it will be valid.
-        //   cb will get GC'd after this method completes.
+        // NOTE: It is possible that the player gets killed in the middle of this
+        // method.
+        // The proper thing to do this case would be to abort the send - but that gets
+        // into the
+        // territory of async cancellation or putting a lock.
+        // For now, we just continue to send the art- cb stores the bitmap, so it will
+        // be valid.
+        // cb will get GC'd after this method completes.
         String localArtUrl = cb.getArtUrl();
         if (localArtUrl == null) {
             Log.w(TAG, "art not found!");
@@ -265,7 +271,7 @@ public class MprisReceiverPlugin extends Plugin {
         np.set("title", player.getTitle());
         np.set("artist", player.getArtist());
         String nowPlaying = Stream.of(player.getArtist(), player.getTitle())
-            .filter(StringUtils::isNotEmpty).collect(Collectors.joining(" - "));
+                .filter(StringUtils::isNotEmpty).collect(Collectors.joining(" - "));
         np.set("nowPlaying", nowPlaying); // GSConnect 50 (so, Ubuntu 22.04) needs this
         np.set("album", player.getAlbum());
         np.set("isPlaying", player.isPlaying());
@@ -291,7 +297,8 @@ public class MprisReceiverPlugin extends Plugin {
 
     @Override
     public boolean checkRequiredPermissions() {
-        //Notifications use a different kind of permission, because it was added before the current runtime permissions model
+        // Notifications use a different kind of permission, because it was added before
+        // the current runtime permissions model
         return hasPermission();
     }
 
@@ -309,7 +316,8 @@ public class MprisReceiverPlugin extends Plugin {
     }
 
     private boolean hasPermission() {
-        String notificationListenerList = Settings.Secure.getString(context.getContentResolver(), "enabled_notification_listeners");
+        String notificationListenerList = Settings.Secure.getString(context.getContentResolver(),
+                "enabled_notification_listeners");
         return notificationListenerList != null && notificationListenerList.contains(context.getPackageName());
     }
 

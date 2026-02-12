@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-  <string name="kde_connect">KDE Connect</string>
+  <string name="kde_connect">Roundlink</string>
   <string name="manifest_label_share">Küldés eszközre</string>
   <string name="foreground_notification_no_devices">Nincs csatlakozva egy eszközhöz sem</string>
   <string name="foreground_notification_devices">Csatlakozva ehhez: %s</string>
@@ -40,7 +40,7 @@
   <string name="open_settings">Beállítások megnyitása</string>
   <string name="no_permissions">Engedélyt kell adnia az értesítésekhez való hozzáféréshez</string>
   <string name="no_permission_mprisreceiver">A médialejátszók távirányításához engedélyt kell adnia az értesítésekhez hozzáféréshez</string>
-  <string name="no_permissions_remotekeyboard">A billentyűlenyomások fogadásához aktiválnia kell a KDE Connect távoli billentyűzetet</string>
+  <string name="no_permissions_remotekeyboard">A billentyűlenyomások fogadásához aktiválnia kell a Roundlink távoli billentyűzetet</string>
   <string name="send_ping">Ping küldése</string>
   <string name="open_mpris_controls">Multimédiavezérlés</string>
   <string name="remotekeyboard_editing_only_title">Távoli billentyűk kezelése csak szerkesztéskor</string>
@@ -172,7 +172,7 @@
     <item>2 perc</item>
   </string-array>
   <string name="mpris_notification_settings_title">Médiavezérlő értesítéseinek megjelenítése</string>
-  <string name="mpris_notification_settings_summary">Lehetővé teszi a médialejátszók vezérlését a KDE Connect megnyitása nélkül</string>
+  <string name="mpris_notification_settings_summary">Lehetővé teszi a médialejátszók vezérlését a Roundlink megnyitása nélkül</string>
   <string name="protocol_version_newer">Ez az eszköz egy újabb protokollverziót használ</string>
   <string name="plugin_settings_with_name">%s beállításai</string>
   <string name="invalid_device_name">Érvénytelen eszköznév</string>
@@ -215,8 +215,8 @@
     <item>Bottom left</item>
     <item>Bottom right</item>
   </string-array>
-  <string name="pairing_title">KDE Connect eszközök</string>
-  <string name="pairing_description">Itt kell megjelennie az Ön hálózatában lévő többi, KDE Connectet futtató eszköznek.</string>
+  <string name="pairing_title">Roundlink eszközök</string>
+  <string name="pairing_description">Itt kell megjelennie az Ön hálózatában lévő többi, Roundlinket futtató eszköznek.</string>
   <string name="device_rename_title">Eszköz átnevezése</string>
   <string name="device_rename_confirm">Átnevezés</string>
   <string name="refresh">Frissítés</string>
@@ -227,7 +227,7 @@
   <string name="pref_plugin_telepathy">SMS küldése</string>
   <string name="pref_plugin_telepathy_desc">Szöveges üzenetek küldese a számítógépéről</string>
   <string name="pref_plugin_telepathy_mms">MMS küldése</string>
-  <string name="pref_plugin_telepathy_mms_desc">Ahhoz, hogy MMS-t tudjon küldeni a KDE Connectből, be kell állítania a KDE Connectet alapértelmezett SMS alkalmazásként.</string>
+  <string name="pref_plugin_telepathy_mms_desc">Ahhoz, hogy MMS-t tudjon küldeni a Roundlinkből, be kell állítania a Roundlinket alapértelmezett SMS alkalmazásként.</string>
   <string name="findmyphone_title">Telefon keresése</string>
   <string name="findmyphone_title_tablet">Tablet keresése</string>
   <string name="findmyphone_title_tv">TV keresése</string>
@@ -253,7 +253,7 @@
   <string name="presenter_lock_tip">Zárolhatja az eszközét, és használhatja a hangerő gombokat az előző/következő diára lépéshez</string>
   <string name="add_command">Parancs hozzáadása</string>
   <string name="addcommand_explanation">Nincsenek regisztrálva parancsok</string>
-  <string name="addcommand_explanation2">A KDE Connect rendszerbeállításokban adhat hozzá új parancsokat</string>
+  <string name="addcommand_explanation2">A Roundlink rendszerbeállításokban adhat hozzá új parancsokat</string>
   <string name="add_command_description">A számítógépén adhat hozzá új parancsokat</string>
   <string name="pref_plugin_mprisreceiver">Médialejátszó vezérlés</string>
   <string name="pref_plugin_mprisreceiver_desc">A telefon médialejátszóinak vezérlése egy másik eszközről</string>
@@ -289,7 +289,7 @@
   <string name="block_images">Képek blokkolása az értesítésekben</string>
   <string name="notification_channel_receivenotification">Értesítések más eszközökről</string>
   <string name="no_app_for_opening">Nem található alkalmazás a fájl megnyitásához</string>
-  <string name="remote_keyboard_service">KDE Connect távoli billentyűzet</string>
+  <string name="remote_keyboard_service">Roundlink távoli billentyűzet</string>
   <string name="presenter_pointer">Mutató</string>
   <string name="trusted_networks">Megbízható hálózatok</string>
   <string name="trusted_networks_desc">Automatikus felfedezés korlátozása az ismert hálózatokra</string>
@@ -370,7 +370,7 @@
   <string name="maxim_leshchenko_task">Fejlesztések a felhasználói felületen, és a névjegy oldal</string>
   <string name="holger_kaelberer_task">Távoli billentyűzet bővítmény és hibajavítások</string>
   <string name="saikrishna_arcot_task">Támogatás a billentyűzet használatához a távoli bement bővítményben, hibajavítások és általános fejlesztések</string>
-  <string name="everyone_else">Mindenki más, aki hozzájárult a KDE Connect fejlesztéséhez az évek alatt</string>
+  <string name="everyone_else">Mindenki más, aki hozzájárult a Roundlink fejlesztéséhez az évek alatt</string>
   <string name="send_clipboard">Vágólap küldése</string>
   <string name="tap_to_execute">Koppintson a végrehajtáshoz</string>
 </resources>

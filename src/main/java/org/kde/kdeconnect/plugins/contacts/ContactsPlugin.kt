@@ -1,5 +1,5 @@
 /*
- * ContactsPlugin.java - This file is part of KDE Connect's Android App
+ * ContactsPlugin.java - This file is part of Roundlink's Android App
  * Implement a way to request and send contact information
  *
  * SPDX-FileCopyrightText: 2018 Simon Redman <simon@ergotech.com>
@@ -73,7 +73,7 @@ class ContactsPlugin : Plugin() {
         }
 
     /**
-     * Add custom fields to the vcard to keep track of KDE Connect-specific fields
+     * Add custom fields to the vcard to keep track of Roundlink-specific fields
      *
      *
      * These include the local device's uID as well as last-changed timestamp
@@ -84,7 +84,7 @@ class ContactsPlugin : Plugin() {
      * @param vcard vcard to apply metadata to
      * @param uID   uID to which the vcard corresponds
      * @throws ContactNotFoundException If the given ID for some reason does not match a contact
-     * @return The same VCard as was passed in, but now with KDE Connect-specific fields
+     * @return The same VCard as was passed in, but now with Roundlink-specific fields
      */
     @Throws(ContactNotFoundException::class)
     private fun addVCardMetadata(vcard: VCardBuilder, uID: uID): VCardBuilder {
