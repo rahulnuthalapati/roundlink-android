@@ -28,6 +28,7 @@ SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted
 
     <androidx.core.widget.NestedScrollView
         android:id="@+id/device_view"
+        android:scrollbars="none"
         android:descendantFocusability="afterDescendants"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

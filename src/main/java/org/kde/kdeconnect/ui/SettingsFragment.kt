@@ -44,6 +44,8 @@ import org.kde.kdeconnect.helpers.NotificationHelper
 import org.kde.kdeconnect.ui.ThemeUtil.applyTheme
 import org.kde.kdeconnect.extensions.setupBottomPadding
 import org.kde.kdeconnect_tp.BuildConfig
+import org.kde.kdeconnect.ui.about.AboutFragment
+import org.kde.kdeconnect.ui.about.getApplicationAboutData
 import org.kde.kdeconnect_tp.R
 import java.io.InputStreamReader
 
@@ -68,7 +70,7 @@ class SettingsFragment : PreferenceFragmentCompat() {
             devicesByIpPref(context),
             bluetoothSupportPref(context),
             exportLogsPref(context),
-            moreSettingsPref(context),
+            aboutPref(context),
         ).forEach(screen::addPreference)
 
         preferenceScreen = screen
@@ -247,12 +249,18 @@ class SettingsFragment : PreferenceFragmentCompat() {
         }
     }
 
-    private fun moreSettingsPref(context: Context) = Preference(context).apply {
+    private fun aboutPref(context: Context) = Preference(context).apply {
         isPersistent = false
-        isSelectable = false
-        setTitle(R.string.settings_more_settings_title)
-        setSummary(R.string.settings_more_settings_text)
+        setTitle(R.string.about)
+        onPreferenceClickListener = Preference.OnPreferenceClickListener {
+            parentFragmentManager.beginTransaction()
+                .replace(R.id.container, AboutFragment.newInstance(getApplicationAboutData(context)))
+                .addToBackStack(null)
+                .commit()
+            true
+        }
     }
+
 
     companion object {
         const val KEY_BLUETOOTH_ENABLED: String = "bluetooth_enabled"
