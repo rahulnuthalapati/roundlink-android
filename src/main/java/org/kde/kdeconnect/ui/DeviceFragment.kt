@@ -24,13 +24,16 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.ViewCompositionStrategy
@@ -39,6 +42,7 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -397,24 +401,32 @@ class DeviceFragment : BaseFragment<ActivityDeviceBinding>() {
     @Composable
     fun PluginButton(button : Plugin.PluginUiButton, modifier: Modifier) {
         Card(
-            shape = MaterialTheme.shapes.medium,
+            shape = RoundedCornerShape(35.dp),
             modifier = modifier.semantics { role = Role.Button },
-            onClick = { button.onClick(mActivity!!) }
+            onClick = { button.onClick(mActivity!!) },
+            colors = CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.secondaryContainer,
+            )
         ) {
             Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(10.dp),
-                modifier = Modifier.padding(horizontal=16.dp, vertical=10.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 10.dp)
             ) {
                 Icon(
                     painter = painterResource(button.iconRes),
                     modifier = Modifier.padding(top = 12.dp),
-                    contentDescription = null
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.primary
                 )
                 Text(
                     text = button.name,
                     maxLines = 2,
                     minLines = 2,
                     fontSize = 18.sp,
+                    textAlign = TextAlign.Center,
                     overflow = TextOverflow.Ellipsis
                 )
             }

@@ -39,7 +39,7 @@ class PresenterPlugin : Plugin() {
     override fun getUiButtons(): List<PluginUiButton> = listOf(
         PluginUiButton(
             context.getString(R.string.pref_plugin_presenter),
-            R.drawable.ic_presenter_24dp
+            R.drawable.ic_presenter
         ) { parentActivity ->
             val intent = Intent(parentActivity, PresenterActivity::class.java)
             intent.putExtra("deviceId", device.deviceId)
