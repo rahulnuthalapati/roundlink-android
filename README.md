@@ -13,7 +13,7 @@ All this without wires, over the already existing Wi-Fi network, and using TLS e
 
 ## Screenshot
 
-<img width="1080" height="2224" alt="Screenshot_20260213_015345_Roundlink" src="https://github.com/user-attachments/assets/98976872-76ef-4f6f-a9cd-c4282bdebf48" />
+<img width="360" height="742" alt="Screenshot_20260213_015345_Roundlink" src="https://github.com/user-attachments/assets/98976872-76ef-4f6f-a9cd-c4282bdebf48" />
 
 
 ## About this app
