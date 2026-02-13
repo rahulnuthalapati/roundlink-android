@@ -14,7 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Send
+import androidx.compose.material.icons.automirrored.rounded.Send
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -107,7 +107,7 @@ class ComposeSendActivity : AppCompatActivity() {
                         modifier = Modifier.padding(all = 16.dp).align(Alignment.BottomEnd),
                         enabled = userInput.value.isNotEmpty(),
                         text = stringResource(R.string.send_compose),
-                        iconLeft = Icons.Default.Send,
+                        iconLeft = Icons.AutoMirrored.Rounded.Send,
                     )
                 }
             }

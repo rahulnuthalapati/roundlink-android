@@ -34,7 +34,7 @@ class MousePadPlugin : Plugin() {
     override fun getUiButtons(): List<PluginUiButton> {
         val mouseAndKeyboardInput = PluginUiButton(
             context.getString(R.string.open_mousepad),
-            R.drawable.touchpad_plugin_action_24dp
+            R.drawable.touchpad_plugin_action
         ) { parentActivity ->
             val intent = Intent(parentActivity, MousePadActivity::class.java)
             intent.putExtra("deviceId", device.deviceId)

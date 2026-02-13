@@ -95,7 +95,7 @@ public class RunCommandPlugin extends Plugin {
 
     @Override
     public @NotNull List<@NotNull PluginUiButton> getUiButtons() {
-        return List.of(new PluginUiButton(context.getString(R.string.pref_plugin_runcommand), R.drawable.run_command_plugin_icon_24dp, parentActivity -> {
+        return List.of(new PluginUiButton(context.getString(R.string.pref_plugin_runcommand), R.drawable.run_command_plugin_icon, parentActivity -> {
             Intent intent = new Intent(parentActivity, RunCommandActivity.class);
             intent.putExtra("deviceId", getDevice().getDeviceId());
             parentActivity.startActivity(intent);

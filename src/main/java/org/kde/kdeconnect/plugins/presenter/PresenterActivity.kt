@@ -26,9 +26,9 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.ArrowForward
-import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.automirrored.rounded.ArrowBack
+import androidx.compose.material.icons.automirrored.rounded.ArrowForward
+import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -205,7 +205,7 @@ class PresenterActivity : AppCompatActivity(), SensorEventListener, OnSharedPref
                                 .fillMaxSize()
                                 .weight(1f),
                             contentDescription = getString(R.string.mpris_previous),
-                            icon = Icons.Default.ArrowBack,
+                            icon = Icons.AutoMirrored.Rounded.ArrowBack,
                         )
                         KdeButton(
                             onClick = { plugin.sendNext() },
@@ -213,7 +213,7 @@ class PresenterActivity : AppCompatActivity(), SensorEventListener, OnSharedPref
                             modifier = Modifier
                                 .fillMaxSize()
                                 .weight(1f),
-                            icon = Icons.Default.ArrowForward,
+                            icon = Icons.AutoMirrored.Rounded.ArrowForward,
                         )
                     }
                     if (sensorManager != null) KdeButton(
@@ -259,7 +259,7 @@ class PresenterActivity : AppCompatActivity(), SensorEventListener, OnSharedPref
             navIconDescription = getString(androidx.appcompat.R.string.abc_action_bar_up_description),
             actions = {
                 IconButton(onClick = { dropdownShownState = true }) {
-                    Icon(Icons.Default.MoreVert, stringResource(R.string.extra_options))
+                    Icon(Icons.Rounded.MoreVert, stringResource(R.string.extra_options))
                 }
                 DropdownMenu(expanded = dropdownShownState, onDismissRequest = { dropdownShownState = false }) {
                     DropdownMenuItem(

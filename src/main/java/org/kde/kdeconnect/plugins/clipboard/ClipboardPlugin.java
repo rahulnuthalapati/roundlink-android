@@ -135,7 +135,7 @@ public class ClipboardPlugin extends Plugin {
     @Override
     public @NotNull List<@NotNull PluginUiButton> getUiButtons() {
         if (Build.VERSION.SDK_INT > Build.VERSION_CODES.P && canAccessLogs()) {
-            return List.of(new PluginUiButton(context.getString(R.string.send_clipboard), R.drawable.ic_baseline_content_paste_24, parentActivity -> {
+            return List.of(new PluginUiButton(context.getString(R.string.send_clipboard), R.drawable.ic_baseline_content_paste, parentActivity -> {
                 userInitiatedSendClipboard();
                 return Unit.INSTANCE;
             }));
