@@ -18,7 +18,7 @@
 
 -dontobfuscate
 -keepattributes SourceFile,LineNumberTable,Signature,*Annotation*
--keep class org.kde.kdeconnect.** {*;}
+-keep class com.roundlink.** {*;}
 
 # SSHd requires mina, and mina uses reflection so some classes would get deleted
 -keep class org.apache.sshd.** {*;}

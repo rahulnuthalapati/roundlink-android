@@ -35,10 +35,10 @@ kotlin {
 }
 
 android {
-    namespace = "org.kde.kdeconnect_tp"
+    namespace = "com.roundlink"
     compileSdk = 36
     defaultConfig {
-        applicationId = "org.kde.kdeconnect_tp"
+        applicationId = "com.roundlink"
         minSdk = 23
         targetSdk = 35
         versionCode = 1
@@ -214,7 +214,7 @@ abstract class FixCollectionsClassVisitorFactory :
 }
 
 ksp {
-    arg("com.albertvaka.classindexksp.annotations", "org.kde.kdeconnect.plugins.PluginFactory.LoadablePlugin")
+    arg("com.albertvaka.classindexksp.annotations", "com.roundlink.plugins.PluginFactory.LoadablePlugin")
 }
 
 androidComponents {
